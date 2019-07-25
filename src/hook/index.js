@@ -21,6 +21,7 @@ export default function Counter() {
           Count: {count}
           <button onClick={() => setCount(pre => pre + 1)}>+</button>
           <button onClick={() => setCount(pre => pre - 1)}>-</button>
+          <x-search>test</x-search>
         </div>
       ) : (
         <div>loading</div>
